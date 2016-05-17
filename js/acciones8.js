@@ -16,10 +16,10 @@ $('#derecha').on("swiperight",function(){
 	break;
 
 	case 2:
-	navigator.notification.vibrate(2000);
+	navigator.notification.vibrate(1000);
 	break;
 	}
 	},"Aplicacion8","Beep,Vibrar,Cancelar");
 });
 	},false);
-});
+})
